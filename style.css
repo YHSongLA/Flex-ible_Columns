@@ -1,0 +1,27 @@
+/* utilities starts */
+.row {
+    display: flex;
+    font-family: sans-serif;
+}
+/* utilities ends */
+
+/* part 1 starts */
+.col, .col-2, .col-3 {
+    background-color: dodgerblue;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+}
+/* part 1 ends */
+
+/* part 2 starts */
+.col-2 {
+    flex: 2;
+}
+/* part 2 ends */
+
+/* part 3 starts */
+.col-3 {
+    flex: 3;
+}
+/* part 3 ends */
